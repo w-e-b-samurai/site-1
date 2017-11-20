@@ -116,6 +116,10 @@
 	.subscribe h2 {
 		font-size: 20px;
 	}
+	.container .item {
+		width: 250px;
+		height: 200px;
+	}
 	.footer {
 		flex-direction: column-reverse;
 		padding-top: 30px;
@@ -136,5 +140,9 @@
 	}
 	.footer__copyright {
 		font-size: 14px;
+	}
+	.container .item {
+		width: 200px;
+		height: 150px;
 	}
 }

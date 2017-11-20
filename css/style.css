@@ -428,6 +428,7 @@
 	border: none;
 	border-radius: 5px;
 	margin-bottom: 46px;
+	transition: box-shadow 0.5s, background-color 0.6s;
 }
 
 .get-in-touch__form input[type="email"] {
@@ -435,6 +436,7 @@
 }
 
 .get-in-touch__form textarea {
+	padding-top: 20px;
 	min-height: 250px;
 }
 
@@ -447,6 +449,14 @@
 .get-in-touch__form button {
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+.get-in-touch__form input:hover,
+.get-in-touch__form textarea:hover,
+.get-in-touch__form input:focus,
+.get-in-touch__form textarea:focus {
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 .get-in-touch__form button:hover {

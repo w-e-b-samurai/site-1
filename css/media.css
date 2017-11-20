@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1266px) {
+	.wrapper {
+		margin: 0 5px;
+	}
+}
+
+@media only screen and (max-width: 1180px) {
+	.our-org-sation {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.our-org-sation__text {
+		width: 100%;
+		margin-top: 100px;
+		margin-left: 0;
+		text-align: center;
+	}
+	.provide {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.provide-left-box {
+		margin-left: 0;
+		margin-bottom: 100px;
+		width: 100%;
+	}
+	.provide-rigth-box__img {
+		margin: 0 auto 10px auto;
+	}
+	.section-text {
+		max-width: 100%;
+	}
+	.section-line {
+		margin: 0 auto;
+	}
+	.our-team {
+		text-align: center;
+	}
+	.controls label {
+		font-size: 18px;
+		margin: 10px;
+	}
+	.subscribe h2 {
+		font-size: 28px;
+	}
+	.get-in-touch {
+		margin-left: 0;
+		text-align: center;
+	}
+	.get-in-touch__container {
+		width: 100%;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.get-in-touch .section-text  {
+		max-width: 100%;
+	}
+	.get-in-touch__info {
+		margin-bottom: 50px;
+		width: 715px;
+	}
+	.get-in-touch__info__container {
+		margin: 20px;
+	}
+}
+
+@media only screen and (max-width: 788px) {
+	.subscribe-form button  {
+		margin-top: 50px;
+	}
+	.get-in-touch__form {
+		width: 100%;
+	}
+	.get-in-touch__info {
+		width: 100%;
+	}
+	.get-in-touch__form input {
+		width: 100%;
+	}
+	.get-in-touch__form input[type="email"] {
+		margin-left: 0px;
+	}
+	.controls {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.our-org-sation__video {
+		display: none;
+	}
+	.our-org-sation__text {
+		margin-top: 0px;
+	}
+	.provide-rigth-box {
+		width: 80%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.provide-rigth-box__item {
+		width: 100%;
+	}
+	.provide-left-box h2 {
+		font-size: 28px;
+	}
+	.our-org-sation__text h1 {
+		font-size: 32px;
+	}
+	.section-title {
+		font-size: 24px;
+	}
+	.subscribe h2 {
+		font-size: 20px;
+	}
+	.footer {
+		flex-direction: column-reverse;
+		padding-top: 30px;
+		margin-left: 0;
+	}
+	.footer__copyright {
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.subscribe-form input {
+		width: 100%;
+	}
+	.provide-rigth-box {
+		width: 100%;
+	}
+	.footer__copyright {
+		font-size: 14px;
+	}
+}
